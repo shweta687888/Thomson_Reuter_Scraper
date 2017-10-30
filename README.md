@@ -12,7 +12,7 @@ python Main.py<br />
 Running the script will result in three .csv files.
 
 # Execution Flow
-Industry_Data contaions Industry and PermID and links of all sectors that contains industry code, gatadata() function is used to extract the link of sectors, using industry code it call retrieve_company_data() function which retrive the company data i,e., Industry, PermID, Ticker, Name, Market Capitilization, TTM Sales and Employees. Using Ticker which is find after calling retrieve_company_data() retrieve_people_data() function would called which retrive the people data i.e., Industry, PermID, Ticker, Name, Age, Since, Current_Position, Description.<br />
+Industry_Data contains Industry and PermID and links of all sectors that contains industry code, getData() function is used to extract the link of sectors, using industry code it call retrieve_company_data() function which retrive the company data i,e., Industry, PermID, Ticker, Name, Market Capitilization, TTM Sales and Employees. Using Ticker that is obtained from retrieve_company_data() retrieve_people_data() function would be called which retrive the people's data i.e., Industry, PermID, Ticker, Name, Age, Since, Current_Position, Description.<br />
 Industry_Data= this contains Industry ,PermID and link which contains Industry code.<br />
 Industry_Info_Data= this contains Industry, PermID, Ticker, Name, Market Capitalisation, ttm, Employees.<br />
 Person_Data= this contains Industry, PermID, Ticker, Name, Age, Since, Current_Position, Descriptions.<br />
