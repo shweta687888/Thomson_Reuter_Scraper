@@ -7,11 +7,11 @@ It crawl through Thomson Reuters company ranking pages and map businesses back t
 4. TTM Sales
 5. Employees.<br />
 From each company listed in the index, it will extract following information of people involved with the business:<br />
-1. Name
-2. Age
-3. Since
-4. Current Position
-5. Description.
+  Name
+  Age
+  Since
+  Current Position
+  Description.
 
 # Running Main.py
 Download the Main.py file from the repo.<br />
