@@ -1,6 +1,6 @@
 # Thomson_Reuter_Scraper
 This is web crawler written in Python. You will need to install Beautifulsoup and pandas before you can use it.<br />
-It crawl through Thomson Reuters company ranking pages and map businesses back to the PermID as available in the spreadsheet.It will extract all Industries along with following information and map them back to the PermID or Hierarchical ID:<br />
+It crawl through Thomson Reuters company ranking pages and map businesses back to the PermID as available in the data.csv file.It will extract all Industries along with following information and map them back to the PermID or Hierarchical ID:<br />
 Ticker, Name, Market Capitalization, TTM Sales, Employees.<br />
 From each company listed in the index, it will extract following information of people involved with the business:<br />
 Name, Age, Since, Current Position,<br /> Description.
